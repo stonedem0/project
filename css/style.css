@@ -1,0 +1,73 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.firstPage {
+    background: url("../images/food.jpeg") no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+}
+
+.info {
+    background: #ffffff;
+    padding-top: 20%;
+}
+.aboutApp {
+    padding-top: 40%;
+    background: #ECECEC;
+}
+.recall {
+    background: #452F3F;
+    padding-top: 25%;
+}
+.header {
+    background: #ffffff;
+    padding-top: 10%;
+}
+
+.country {
+    padding-top: 30%;
+    background: url("../images/food.jpeg") no-repeat  center;
+    background-size: cover;
+
+}
+.statistics {
+    background: #ffffff;
+    padding-top: 10%;
+
+}
+footer {
+    padding-top: 5%;
+    background: #ECECEC;
+}
+.start {
+    /*position:absolute;*/
+    text-align: center;
+    /*margin: -150px 0 0 -150px;*/
+    /*left:50%;*/
+    /*top:50%;*/
+
+
+
+}
+
+.start h1 {
+
+}
+.start h2 {
+    font-size: 14px;
+    font-family: Calligraffitti;
+}
+.start h3 {
+    font-size: 8px;
+}
+.btn {
+    background: transparent;
+    border-radius:0;
+    color: white;
+}
