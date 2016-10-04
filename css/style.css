@@ -1,16 +1,68 @@
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0 auto;
     color: #ffffff;
 }
+@font-face {
+    font-family: Custom;
+    src: url("../font/Lato-Bla.ttf"),
+    url("../font/Lato-BlaIta.ttf"),
+    url("../font/Lato-Bol.ttf"),
+    url("../font/Lato-Bolita.ttf"),
+    url("../font/Lato-Hai.ttf"),
+    url("../font/Lato-HaiIta.ttf"),
+    url("../font/Lato-Lig.ttf"),
+    url("../font/Lato-LigIta.ttf"),
+    url("../font/Lato-Reg.ttf"),
+    url("../font/Lato-RegIta.ttf");
+}
+
+
+.loginLogo {
+    position: relative;
+    left: 47px;
+    bottom: 272px;
+
+}
+.logo {
+    display: inline;
+    left: 7%;
+
+}
+
+.login {
+    display: inline;
+    float: right;
+    width: 30%;
+    top: 25px;
+    font-family: Custom;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    text-rendering: optimizeLegibility;
+
+    -webkit-font-smoothing: antialiased;
+}
+.log {
+    display: inline;
+    padding: 3%;
+
+}
+.sign {
+    display: inline;
+    padding: 3%;
+}
+.menu {
+    display: inline;
+    padding: 3%;
+}
 
 .firstPage {
-    background: url("../images/food.jpeg") no-repeat center;
+    background: url("../images/maine.png") no-repeat center;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 400px;
+    height: 800px;
 }
 
 .info {
@@ -61,7 +113,7 @@ footer {
 }
 .start h2 {
     font-size: 14px;
-    font-family: Calligraffitti;
+    /*font-family: Calligraffitti;*/
 }
 .start h3 {
     font-size: 8px;
