@@ -20,7 +20,7 @@ body {
 .loginLogo {
     position: relative;
     left: 47px;
-    bottom: 272px;
+    bottom: 242px;
 
 }
 .logo {
@@ -109,17 +109,34 @@ footer {
 }
 
 .start h1 {
+    font-size: 100px;
 
 }
 .start h2 {
-    font-size: 14px;
-    /*font-family: Calligraffitti;*/
+    font-size: 36px;
+    font-family: "Times New Roman";
+    font-style: italic ;
+    opacity: 0.8;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+.italicFont {
+    margin: -25px;
 }
 .start h3 {
-    font-size: 8px;
+    font-size: 14px;
 }
 .btn {
+    padding: 14px 74px;
     background: transparent;
+    border: 2px solid white;
     border-radius:0;
     color: white;
+    font-family: Custom;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
 }
