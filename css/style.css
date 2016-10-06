@@ -4,16 +4,43 @@ body {
 }
 @font-face {
     font-family: Custom;
-    src: url("../font/Lato-Bla.ttf"),
-    url("../font/Lato-BlaIta.ttf"),
-    url("../font/Lato-Bol.ttf"),
-    url("../font/Lato-Bolita.ttf"),
-    url("../font/Lato-Hai.ttf"),
-    url("../font/Lato-HaiIta.ttf"),
-    url("../font/Lato-Lig.ttf"),
-    url("../font/Lato-LigIta.ttf"),
-    url("../font/Lato-Reg.ttf"),
-    url("../font/Lato-RegIta.ttf");
+    src: url("../font/Lato-Bla.ttf");
+}
+@font-face {
+    font-family: Lato-BlaIta;
+    src: url("../font/Lato-BlaIta.ttf");
+}
+@font-face {
+    font-family: Lato-Bol;
+    src: url("../font/Lato-Bol.ttf");
+}
+@font-face {
+    font-family: Lato-BolIta;
+    src: url("../font/Lato-Bolita.ttf");
+}
+@font-face {
+    font-family: Lato-Hai;
+    src: url("../font/Lato-Hai.ttf");
+}
+@font-face {
+    font-family: Lato-HaiIta;
+    src: url("../font/Lato-HaiIta.ttf");
+}
+@font-face {
+    font-family: Lato-Lig;
+    src: url("../font/Lato-Lig.ttf");
+}
+@font-face {
+    font-family: Lato-LigIta;
+    src: url("../font/Lato-LigIta.ttf");
+}
+@font-face {
+    font-family: Lato-Reg;
+    src: url("../font/Lato-Reg.ttf");
+}
+@font-face {
+    font-family: Lato-RegIta;
+    src: url("../font/Lato-RegIta.ttf");
 }
 
 
@@ -67,11 +94,71 @@ body {
 
 .info {
     background: #ffffff;
-    padding-top: 20%;
+    height: 400px;
 }
+.infoContent {
+    margin-left: 1%;
+    margin-top: 7%;
+}
+
+.burger {
+    border: 2px solid black;
+    padding: 2px;
+    border-radius: 50px;
+
+}
+.money {
+    border: 2px solid black;
+    padding: 2px;
+    border-radius: 50px;
+}
+.cook {
+    border: 2px solid black;
+    padding: 2px;
+    border-radius: 50px;
+}
+.iconSign {
+    font-size: 14px;
+    color:black;
+    text-align: center;
+
+}
+.iconSign h3 {
+    font-family: Lato-Bol;
+    text-transform: uppercase;
+
+
+}
+
+.iconSign p {
+    font-size: 10px;
+    margin-top: 5px;
+    padding: 11px;
+    text-transform: lowercase;
+    font-weight: 200;
+    line-height: 1.7;
+    font-family: Lato-Lig;
+
+}
+.border {
+   position: relative;
+}
+.border:before {
+    position: absolute;
+    top: 6px;
+    left: 40%;
+    width: 20%;
+    border-top: 1px solid #f57365;
+    content:"";
+
+
+}
+
 .aboutApp {
-    padding-top: 40%;
+    height: 800px;
     background: #ECECEC;
+    background: url("../images/iphone.png") no-repeat;
+    background-size: cover;
 }
 .recall {
     background: #452F3F;
