@@ -43,7 +43,9 @@ body {
     src: url("../font/Lato-RegIta.ttf");
 }
 
-
+.container-fluid {
+    width: 92%;
+}
 .loginLogo {
     position: relative;
     left: 47px;
@@ -94,11 +96,11 @@ body {
 
 .info {
     background: #ffffff;
-    height: 400px;
+    height: 100%;
 }
 .infoContent {
     margin-left: 1%;
-    margin-top: 7%;
+    margin-top: 4%;
 }
 
 .burger {
@@ -153,16 +155,58 @@ body {
 
 
 }
+.border2 {
+    position: relative;
 
+}
+.border2:before {
+    position: absolute;
+    top: -7px;
+    width: 8%;
+    border-top: 1px solid #f57365;
+    content: "";
+}
 .aboutApp {
-    height: 800px;
-    background: #ECECEC;
-    background: url("../images/iphone.png") no-repeat;
-    background-size: cover;
+    background: #f4f4f4;
+    overflow: hidden;
+
+}
+
+.iphone {
+    float:left;
+    margin-left: 5%;
+    width: 50%;
+}
+
+.iphone img {
+    max-width: 672px;
+    width: 100%;
+    height: auto;
+}
+
+.iphoneText {
+    color: #0f0f0f;
+    padding-top: 100px;
+}
+.iphoneText {
+    font-family: Lato-Bol;
+    text-transform: uppercase;
+}
+.iphoneText p {
+    margin: 0 0  20px;
+    text-transform: lowercase;
+    font-weight: 200;
+    line-height: 1.7;
+    font-family: Lato-Lig;
+}
+.text {
+    padding-right: 12%;
+    min-width: 100%;
 }
 .recall {
     background: #452F3F;
-    padding-top: 25%;
+    height: 200px;
+    clear: both;
 }
 .header {
     background: #ffffff;
