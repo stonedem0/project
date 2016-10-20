@@ -210,6 +210,10 @@ body {
     height: 364px;
     clear: both;
 }
+.recallSlid {
+    background-color: transparent;
+    height: 270px;
+}
 .guyPic {
     position: absolute;
     top: 20%;
@@ -236,139 +240,24 @@ body {
     font-family: Lato-HaiIta;
     font-size: 18px;
 }
-#slider-wrapper {
-    width: 940px;
-    height: 470px;
-    margin: 50px auto;
-    position: relative;
-    margin-bottom: 0px;
-    background: rgba(0, 0, 0, 0.5);
-    overflow: hidden;
-}
-
-#s1 {
-    padding: 6px;
-    background: #000000;
-    position: absolute;
-    left: 50%;
-    bottom: 25px;
-    margin-left: -36px;
-    border-radius: 20px;
-    opacity: 0.3;
-    cursor: pointer;
-    z-index: 999;
-}
-
-#s2 {
-    padding: 6px;
-    background: #000000;
-    position: absolute;
-    left: 50%;
-    bottom: 25px;
-    margin-left: -12px;
-    border-radius: 20px;
-    opacity: 0.3;
-    cursor: pointer;
-    z-index: 999;
-}
-
-#s3 {
-    padding: 6px;
-    background: #000000;
-    position: absolute;
-    left: 50%;
-    bottom: 25px;
-    margin-left: 12px;
-    border-radius: 20px;
-    opacity: 0.3;
-    cursor: pointer;
-    z-index: 999;
-}
-
-
-#s1:hover,
-#s2:hover,
-#s3:hover {
-    opacity: .50;
-}
-
-.inner-wrapper {
-    width: 940px;
-    height: 470px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-bottom: 0px;
-    overflow: hidden;
-}
-
-.control {
-    display: none;
-}
-
-#Slide1:checked ~ .overflow-wrapper {
-    margin-left: 0%;
-}
-
-#Slide2:checked ~ .overflow-wrapper {
-    margin-left: -100%;
-}
-
-#Slide3:checked ~ .overflow-wrapper {
-    margin-left: -200%;
-}
-
-#Slide4:checked ~ .overflow-wrapper {
-    margin-left: -300%;
-}
-
-#Slide1:checked + #s1 {
-    opacity: 1;
-}
-
-#Slide2:checked + #s2 {
-    opacity: 1;
-}
-
-#Slide3:checked + #s3 {
-    opacity: 1;
-}
-
-
-
-.overflow-wrapper {
-    width: 400%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    overflow-y: hidden;
-    z-index: 1;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-}
-
-.slide img {
-    width: 25%;
-    float: left;
-}
 
 .header {
     background: #ffffff;
-    padding-top: 10%;
+    height: 50px;
 }
 
 .country {
-    padding-top: 30%;
-    background: url("../images/food.jpeg") no-repeat  center;
-    background-size: cover;
+    height: 50px;
 
+}
+.italian {
+    background: url("../images/italian.png")no-repeat  center;
+    background-size: cover;
+    height: 153px;
 }
 .statistics {
     background: #ffffff;
-    padding-top: 10%;
+    height: 50px;
 
 }
 footer {
@@ -417,4 +306,42 @@ footer {
     font-weight: bold;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+}
+
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+    .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+.owl-buttons {
+    display: none;
 }
