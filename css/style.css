@@ -99,24 +99,10 @@ body {
 .info {
     background: #ffffff;
     height: 100%;
-}
-.infoContent {
-    margin-left: 1%;
-    margin-top: 4%;
+    padding: 50px;
 }
 
-.burger {
-    border: 2px solid black;
-    padding: 2px;
-    border-radius: 50px;
-
-}
-.money {
-    border: 2px solid black;
-    padding: 2px;
-    border-radius: 50px;
-}
-.cook {
+.icon {
     border: 2px solid black;
     padding: 2px;
     border-radius: 50px;
@@ -130,19 +116,17 @@ body {
 .iconSign h3 {
     font-family: Lato-Bol;
     text-transform: uppercase;
-
-
+    font-size: 18px;
 }
 
 .iconSign p {
-    font-size: 10px;
+    font-size: 12px;
     margin-top: 5px;
     padding: 11px;
     text-transform: lowercase;
     font-weight: 200;
     line-height: 1.7;
     font-family: Lato-Lig;
-
 }
 .border {
    position: relative;
@@ -154,7 +138,6 @@ body {
     width: 20%;
     border-top: 1px solid #f57365;
     content:"";
-
 
 }
 .border2 {
@@ -177,34 +160,49 @@ body {
 .iphone {
     float:left;
     margin-left: 5%;
-    width: 50%;
+    width: 570px;
+    height: 511px;
+    background: url("../images/iphone1.png")no-repeat, center;
+    background-size: cover;
+
 }
 
-.iphone img {
-    max-width: 672px;
+/*.iphone img {*/
+    /*width: 100%;*/
+    /*height: auto;*/
+
+
+/*}*/
+
+/*.iphoneText {*/
+    /*color: #0f0f0f;*/
+    /*padding-top: 100px;*/
+    /*font-family: Lato-Bol;*/
+    /*text-transform: uppercase;*/
+}
+.text {
+    /*padding-right: 12%;*/
+    /*min-width: 100%;*/
+    float: right;
     width: 100%;
-    height: auto;
-}
-
-.iphoneText {
-    color: #0f0f0f;
     padding-top: 100px;
+
 }
-.iphoneText {
-    font-family: Lato-Bol;
+.text h2 {
+    color: black;
     text-transform: uppercase;
+    font-family: Lato-Bol;
+
 }
-.iphoneText p {
-    margin: 0 0  20px;
+.text p {
+    /*margin: 0 0  20px;*/
     text-transform: lowercase;
     font-weight: 200;
     line-height: 1.7;
     font-family: Lato-Lig;
+    color: black;
 }
-.text {
-    padding-right: 12%;
-    min-width: 100%;
-}
+
 .recall {
     position: relative;
     background: url("../images/revback.png");
