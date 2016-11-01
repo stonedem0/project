@@ -1,6 +1,7 @@
 body {
     margin: 0 auto;
     color: #ffffff;
+
 }
 @font-face {
     font-family: Custom;
@@ -44,7 +45,8 @@ body {
 }
 
 .container-fluid {
-    width: 92%;
+    width: 100%;
+    overflow: hidden;
 }
 .loginLogo {
     position: relative;
@@ -243,8 +245,25 @@ body {
 
 .header {
     background: #ffffff;
-    height: 50px;
+    height: 120px;
 }
+.header h2 {
+    color: black;
+    text-transform: uppercase;
+    font-family: Lato-Bol;
+    font-size: 18px;
+    text-align: center;
+}
+.headerText {
+    left: 50%;
+    padding-top: 41px;
+}
+.headerText .border:before {
+    top: -4px;
+    left: 47%;
+    width: 6%;
+}
+
 
 .country {
     height: 50px;
@@ -255,13 +274,62 @@ body {
     background-size: cover;
     height: 153px;
 }
+.indian {
+    background: url("../images/indian.png")no-repeat center;
+    background-size: cover;
+    height: 153px;
+}
+.french {
+    background: url("../images/french.png")no-repeat center;
+    background-size: cover;
+    height: 153px;
+}
+.steakhouse {
+    background: url("../images/steakhouse.png")no-repeat center;
+    background-size: cover;
+    height: 153px;
+}
+.seafood {
+    background: url("../images/seafood.png")no-repeat center;
+    background-size: cover;
+    height: 153px;
+}
+.sushi {
+    background: url("../images/sushi.png")no-repeat center;
+    background-size: cover;
+    height: 153px;
+}
+.mexican {
+    background: url("../images/mexican.png")no-repeat center;
+    background-size: cover;
+    height: 153px;
+}
+.chinese {
+    background: url("../images/chines.png")no-repeat center;
+    background-size: cover;
+    height: 153px;
+}
+.pizza {
+    background: url("../images/pizza.png")no-repeat center;
+    background-size: cover;
+    height: 153px;
+}
+.american {
+    background: url("../images/american.png")no-repeat center;
+    background-size: cover;
+    height: 153px;
+}
+
 .statistics {
     background: #ffffff;
-    height: 50px;
+    color: black;
+    text-align: center;
+    font-family: Lato-Bol;
+    font-size: 36px;
 
 }
 footer {
-    padding-top: 5%;
+  height: 60px;
     background: #ECECEC;
 }
 .start {
@@ -309,39 +377,91 @@ footer {
 }
 
 
-.col-xs-15,
-.col-sm-15,
-.col-md-15,
-.col-lg-15 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 10px;
-    padding-left: 10px;
-}
+/*.col-xs-15,*/
+/*.col-sm-15,*/
+/*.col-md-15,*/
+/*.col-lg-15 {*/
+    /*position: relative;*/
+    /*min-height: 1px;*/
+    /*padding-right: 10px;*/
+    /*padding-left: 10px;*/
+/*}*/
 
-.col-xs-15 {
-    width: 20%;
-    float: left;
-}
-@media (min-width: 768px) {
-    .col-sm-15 {
-        width: 20%;
-        float: left;
-    }
-}
-@media (min-width: 992px) {
-    .col-md-15 {
-        width: 20%;
-        float: left;
-    }
-}
-@media (min-width: 1200px) {
-    .col-lg-15 {
-        width: 20%;
-        float: left;
-    }
-}
+/*.col-xs-15 {*/
+    /*width: 20%;*/
+    /*float: left;*/
+/*}*/
+/*@media (min-width: 768px) {*/
+    /*.col-sm-15 {*/
+        /*width: 20%;*/
+        /*float: left;*/
+    /*}*/
+/*}*/
+/*@media (min-width: 992px) {*/
+    /*.col-md-15 {*/
+        /*width: 20%;*/
+        /*float: left;*/
+    /*}*/
+/*}*/
+/*@media (min-width: 1200px) {*/
+    /*.col-lg-15 {*/
+        /*width: 20%;*/
+        /*float: left;*/
+    /*}*/
+/*}*/
 
 .owl-buttons {
     display: none;
+}
+@media  (min-width: 768px) {
+    div.col-sm-7.five-three {
+        width: 60% !important;
+    }
+
+    div.col-sm-5.five-two {
+        width: 40% !important;
+    }
+}
+.col-sm-12 {
+    margin-bottom: -40px;
+}
+
+.figures {
+    display: inline-block;
+    color: black;
+    margin: 29px;
+
+}
+.figures p {
+    font-size: 16px;
+    font-family: Lato-Lig;
+    color: #aaaaaa;
+}
+
+.copyright {
+    color: #c5c5c5;
+    font-size: 10px;
+    font-family: Lato-Lig;
+    padding-left: 140px;
+    padding-top: 26px;
+
+}
+
+.designBy {
+    color: #c5c5c5;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: Lato-Lig;
+    padding-left: 290px;
+    padding-top: 26px;
+
+
+}
+.designBy span {
+    color: black;
+
+}
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
 }
