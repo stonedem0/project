@@ -1,0 +1,477 @@
+body {
+    margin: 0 auto;
+    color: #ffffff;
+
+}
+@font-face {
+    font-family: Custom;
+    src: url("../font/Lato-Bla.ttf");
+}
+@font-face {
+    font-family: Lato-BlaIta;
+    src: url("../font/Lato-BlaIta.ttf");
+}
+@font-face {
+    font-family: Lato-Bol;
+    src: url("../font/Lato-Bol.ttf");
+}
+@font-face {
+    font-family: Lato-BolIta;
+    src: url("../font/Lato-Bolita.ttf");
+}
+@font-face {
+    font-family: Lato-Hai;
+    src: url("../font/Lato-Hai.ttf");
+}
+@font-face {
+    font-family: Lato-HaiIta;
+    src: url("../font/Lato-HaiIta.ttf");
+}
+@font-face {
+    font-family: Lato-Lig;
+    src: url("../font/Lato-Lig.ttf");
+}
+@font-face {
+    font-family: Lato-LigIta;
+    src: url("../font/Lato-LigIta.ttf");
+}
+@font-face {
+    font-family: Lato-Reg;
+    src: url("../font/Lato-Reg.ttf");
+}
+@font-face {
+    font-family: Lato-RegIta;
+    src: url("../font/Lato-RegIta.ttf");
+}
+
+.container-fluid {
+    width: 100%;
+    overflow: hidden;
+}
+.loginLogo {
+    position: relative;
+    left: 47px;
+    bottom: 242px;
+
+}
+.logo {
+    display: inline;
+    left: 7%;
+
+}
+
+.login {
+    display: inline;
+    float: right;
+    width: 30%;
+    top: 25px;
+    font-family: Custom;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    text-rendering: optimizeLegibility;
+
+    -webkit-font-smoothing: antialiased;
+}
+.log {
+    display: inline;
+    padding: 3%;
+
+}
+.sign {
+    display: inline;
+    padding: 3%;
+}
+.menu {
+    display: inline;
+    padding: 3%;
+}
+
+.firstPage {
+    background: url("../images/maine.png") no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 800px;
+}
+
+.info {
+    background: #ffffff;
+    height: 100%;
+    padding: 50px;
+}
+
+.icon {
+    border: 2px solid black;
+    padding: 2px;
+    border-radius: 50px;
+}
+.iconSign {
+    font-size: 14px;
+    color:black;
+    text-align: center;
+
+}
+.iconSign h3 {
+    font-family: Lato-Bol;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.iconSign p {
+    font-size: 12px;
+    margin-top: 5px;
+    padding: 11px;
+    text-transform: lowercase;
+    font-weight: 200;
+    line-height: 1.7;
+    font-family: Lato-Lig;
+}
+.border {
+   position: relative;
+}
+.border:before {
+    position: absolute;
+    top: 6px;
+    left: 40%;
+    width: 20%;
+    border-top: 1px solid #f57365;
+    content:"";
+
+}
+.border2 {
+    position: relative;
+
+}
+.border2:before {
+    position: absolute;
+    top: -7px;
+    width: 8%;
+    border-top: 1px solid #f57365;
+    content: "";
+}
+.aboutApp {
+    background: #f4f4f4;
+    overflow: hidden;
+
+}
+
+.iphone {
+    float:left;
+    margin-left: 5%;
+    width: 570px;
+    height: 511px;
+    background: url("../images/iphone1.png")no-repeat, center;
+    background-size: cover;
+
+}
+
+/*.iphone img {*/
+    /*width: 100%;*/
+    /*height: auto;*/
+
+
+/*}*/
+
+/*.iphoneText {*/
+    /*color: #0f0f0f;*/
+    /*padding-top: 100px;*/
+    /*font-family: Lato-Bol;*/
+    /*text-transform: uppercase;*/
+.text {
+    /*padding-right: 12%;*/
+    /*min-width: 100%;*/
+    /*float: right;*/
+    width: 100%;
+    padding-top: 81px;
+    padding-right: 81px;
+
+}
+.text h2 {
+    color: black;
+    text-transform: uppercase;
+    font-family: Lato-Bol;
+    font-size: 18px;
+
+}
+.text p {
+    margin: 0 0  20px;
+    text-transform: lowercase;
+    font-weight: 200;
+    line-height: 1.7;
+    font-family: Lato-Lig;
+    color: black;
+    font-size: 12px;
+}
+
+.recall {
+    position: relative;
+    background: url("../images/revback.png");
+    background-size: cover;
+    height: 364px;
+    clear: both;
+}
+.recallSlid {
+    background-color: transparent;
+    height: 270px;
+}
+.guyPic {
+    position: absolute;
+    top: 16%;
+    left: 46%;
+}
+.guy {
+    border: 4px solid #948a94;
+    border-radius: 75px;
+}
+.recallText {
+    /*position: absolute;*/
+    /*top: 30%;*/
+    /*left: 21%;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: Lato-Hai;
+    opacity: 0.6;
+    padding-top: 118px;
+
+}
+.recallText h2 {
+    font-size: 25px;
+}
+.recallText h3 {
+    font-family: Lato-HaiIta;
+    font-size: 18px;
+}
+
+.header {
+    background: #ffffff;
+    height: 120px;
+}
+.header h2 {
+    color: black;
+    text-transform: uppercase;
+    font-family: Lato-Bol;
+    font-size: 18px;
+    text-align: center;
+}
+.headerText {
+    left: 50%;
+    padding-top: 41px;
+}
+.headerText .border:before {
+    top: -4px;
+    left: 47%;
+    width: 6%;
+}
+
+
+.country {
+    height: 50px;
+
+}
+.italian {
+    background: url("../images/italian.png")no-repeat  center;
+    background-size: cover;
+    height: 153px;
+}
+.indian {
+    background: url("../images/indian.png")no-repeat center;
+    background-size: cover;
+    height: 153px;
+}
+.french {
+    background: url("../images/french.png")no-repeat center;
+    background-size: cover;
+    height: 153px;
+}
+.steakhouse {
+    background: url("../images/steakhouse.png")no-repeat center;
+    background-size: cover;
+    height: 153px;
+}
+.seafood {
+    background: url("../images/seafood.png")no-repeat center;
+    background-size: cover;
+    height: 153px;
+}
+.sushi {
+    background: url("../images/sushi.png")no-repeat center;
+    background-size: cover;
+    height: 153px;
+}
+.mexican {
+    background: url("../images/mexican.png")no-repeat center;
+    background-size: cover;
+    height: 153px;
+}
+.chinese {
+    background: url("../images/chines.png")no-repeat center;
+    background-size: cover;
+    height: 153px;
+}
+.pizza {
+    background: url("../images/pizza.png")no-repeat center;
+    background-size: cover;
+    height: 153px;
+}
+.american {
+    background: url("../images/american.png")no-repeat center;
+    background-size: cover;
+    height: 153px;
+}
+
+.statistics {
+    background: #ffffff;
+    color: black;
+    text-align: center;
+    font-family: Lato-Bol;
+    font-size: 36px;
+
+}
+footer {
+  height: 60px;
+    background: #ECECEC;
+}
+.start {
+    /*position:absolute;*/
+    text-align: center;
+    /*margin: -150px 0 0 -150px;*/
+    /*left:50%;*/
+    /*top:50%;*/
+
+
+
+}
+
+.start h1 {
+    font-size: 100px;
+
+}
+.start h2 {
+    font-size: 36px;
+    font-family: "Times New Roman";
+    font-style: italic ;
+    opacity: 0.8;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+.italicFont {
+    margin: -25px;
+}
+.start h3 {
+    font-size: 14px;
+}
+.btn {
+    padding: 14px 74px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius:0;
+    color: white;
+    font-family: Custom;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/*.col-xs-15,*/
+/*.col-sm-15,*/
+/*.col-md-15,*/
+/*.col-lg-15 {*/
+    /*position: relative;*/
+    /*min-height: 1px;*/
+    /*padding-right: 10px;*/
+    /*padding-left: 10px;*/
+/*}*/
+
+/*.col-xs-15 {*/
+    /*width: 20%;*/
+    /*float: left;*/
+/*}*/
+/*@media (min-width: 768px) {*/
+    /*.col-sm-15 {*/
+        /*width: 20%;*/
+        /*float: left;*/
+    /*}*/
+/*}*/
+/*@media (min-width: 992px) {*/
+    /*.col-md-15 {*/
+        /*width: 20%;*/
+        /*float: left;*/
+    /*}*/
+/*}*/
+/*@media (min-width: 1200px) {*/
+    /*.col-lg-15 {*/
+        /*width: 20%;*/
+        /*float: left;*/
+    /*}*/
+/*}*/
+
+.owl-buttons {
+    display: none;
+}
+@media  (min-width: 768px) {
+    div.col-sm-7.five-three {
+        width: 60% !important;
+    }
+
+    div.col-sm-5.five-two {
+        width: 40% !important;
+    }
+}
+.col-sm-12 {
+    margin-bottom: -40px;
+}
+
+.figures {
+    display: inline-block;
+    color: black;
+    margin: 29px;
+
+}
+.figures p {
+    font-size: 16px;
+    font-family: Lato-Lig;
+    color: #aaaaaa;
+}
+
+.copyright {
+    color: #c5c5c5;
+    font-size: 10px;
+    font-family: Lato-Lig;
+    padding-left: 140px;
+    padding-top: 26px;
+
+}
+
+.designBy {
+    color: #c5c5c5;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: Lato-Lig;
+    padding-left: 290px;
+    padding-top: 26px;
+
+
+}
+.designBy span {
+    color: black;
+
+}
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    width: 10px;
+    height: 10px;
+    background: white;
+}
+
