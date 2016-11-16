@@ -1,12 +1,16 @@
-@media screen and (max-width: 940px ){
-    .iphone {
-        width: 390px;
-
-    }
-    .text {
-        padding-right: 0px;
-        padding-top: 0px;
-
+@media screen and (max-width: 980px ) {
+    .iphone img {
+        width: 330px;
     }
 
+}
+@media screen and (max-width: 650px ) {
+    .iphone img {
+        width: 280px;
+
+    }
+    .textApp {
+        max-height: 382px;
+        padding-right: 6%;
+    }
 }

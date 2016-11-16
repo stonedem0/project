@@ -153,24 +153,38 @@ body {
 }
 .aboutApp {
     background: #f4f4f4;
-    overflow: hidden;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 62px;
 }
+
 
 .iphone {
-    float:left;
-    margin-left: 5%;
-    width: 570px;
-    height: 511px;
-    background: url("../images/iphone1.png")no-repeat, center;
-    background-size: cover;
+    padding-left: 8%;
+
+    /*float:left;*/
+    /*margin-left: 14%;*/
+    /*width: 373px;*/
+    /*height: 518px;*/
+    /*background: url("../images/iphone1.png")no-repeat, center;*/
+    /*background-size: cover;*/
 
 }
 
-/*.iphone img {*/
-    /*width: 100%;*/
-    /*height: auto;*/
+.iphone img {
+    width: 400px;
+    height: auto;
+}
+.textApp {
+    /*display: flex;*/
+    max-height: 418px;
+    overflow: scroll;
+    width: 50%;
+    padding-right: 10%;
+    padding-top: 38px;
 
+}
 
 /*}*/
 
@@ -181,11 +195,11 @@ body {
     /*text-transform: uppercase;*/
 .text {
     /*padding-right: 12%;*/
-    /*min-width: 100%;*/
-    /*float: right;*/
-    width: 100%;
-    padding-top: 81px;
-    padding-right: 81px;
+    /*min-width: 80%;*/
+    /*!*float: right;*!*/
+    /*width: 100%;*/
+    /*padding-top: 30px;*/
+    /*padding-right: 81px;*/
 
 }
 .text h2 {
@@ -202,7 +216,7 @@ body {
     line-height: 1.7;
     font-family: Lato-Lig;
     color: black;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .recall {
@@ -475,3 +489,13 @@ footer {
     background: white;
 }
 
+.flex-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+
+}
+
+.italian {
+
+}
