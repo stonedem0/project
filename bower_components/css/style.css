@@ -295,6 +295,7 @@ body {
     background: url("../images/indian.png")no-repeat center;
     background-size: cover;
     height: 153px;
+    /*width: 153px;*/
 }
 .french {
     background: url("../images/french.png")no-repeat center;
@@ -342,12 +343,17 @@ body {
     color: black;
     text-align: center;
     font-family: Lato-Bol;
-    font-size: 36px;
+    font-size: 26px;
 
 }
 footer {
-  height: 60px;
+    height: 45px;
     background: #ECECEC;
+    padding-left: 310px;
+    padding-right: 0px;
+    padding-top: 14px;
+
+
 }
 .start {
     /*position:absolute;*/
@@ -430,15 +436,7 @@ footer {
 .owl-buttons {
     display: none;
 }
-@media  (min-width: 768px) {
-    div.col-sm-7.five-three {
-        width: 60% !important;
-    }
 
-    div.col-sm-5.five-two {
-        width: 40% !important;
-    }
-}
 .col-sm-12 {
     margin-bottom: -40px;
 }
@@ -446,7 +444,9 @@ footer {
 .figures {
     display: inline-block;
     color: black;
-    margin: 29px;
+    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 .figures p {
@@ -459,8 +459,8 @@ footer {
     color: #c5c5c5;
     font-size: 10px;
     font-family: Lato-Lig;
-    padding-left: 140px;
-    padding-top: 26px;
+    /*padding-left: 140px;*/
+    /*padding-top: 26px;*/
 
 }
 
@@ -469,8 +469,8 @@ footer {
     text-transform: uppercase;
     font-size: 10px;
     font-family: Lato-Lig;
-    padding-left: 290px;
-    padding-top: 26px;
+    /*padding-left: 290px;*/
+    /*padding-top: 26px;*/
 
 
 }
@@ -489,13 +489,37 @@ footer {
     background: white;
 }
 
-.flex-container {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
+
+.section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+.col {
+    display: block;
+    float:left;
 
 }
+.col:first-child { margin-left: 0; }
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
 
-.italian {
 
+.span_5_of_5 {
+    width: 100%;
 }
+.span_4_of_5 {
+    width: 80%;
+}
+.span_3_of_5 {
+    width: 60%;
+}
+.span_2_of_5 {
+    width: 40%;
+}
+.span_1_of_5 {
+    width: 20%;
+}
+
